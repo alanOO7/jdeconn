@@ -31,7 +31,7 @@ public class CallBSFN {
 
         BSFNSpecSource specSource = null;
         // Step 1: Login
-        int sessionID = Connector.getInstance().login("ELHAITAO", "ELHAITAO", "JPY920", "*ALL");
+        int sessionID = Connector.getInstance().login("ELWAYNE", "666666", "JPY920", "*ALL");
         System.out.println("SessionID--->" + sessionID);
         // Pre-condition: create the SpecDictionary or BSFNSpecSource
         specSource = new OneworldBSFNSpecSource(sessionID);
@@ -44,7 +44,7 @@ public class CallBSFN {
         try {
 
             // Step 4: Set parameter values
-            addressbook.setValue("mnAddressNumber", "80001875");
+            addressbook.setValue("mnAddressNumber", "1000");
 
             // Step 5: Execute the business function
             BSFNExecutionWarning warning = addressbook.execute(sessionID);

@@ -4,9 +4,9 @@ spring:
     show-sql: true
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@10.1.1.30:1521:DBTEST
-    username: CRPDTA
-    password: P1qaz#EDC
+    url: jdbc:oracle:thin:@192.168.88.12:1521:DBTEST
+    username: eljack
+    password: E1jack02032046
 #
 swagger:
   enable=true
