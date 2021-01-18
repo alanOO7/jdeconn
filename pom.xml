@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.el</groupId>
-    <artifactId>jiumaojiu</artifactId>
+    <artifactId>jdeConn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jiumaojiu</name>
-    <description>EL JDE PJ FOR JIUMAOJIU</description>
+    <name>jdeConn</name>
+    <description>EL JDE PJ</description>
 
     <properties>
         <java.version>1.8</java.version>

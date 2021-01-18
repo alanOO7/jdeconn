@@ -1,6 +1,4 @@
-package com.el.pojo;
-
-import org.springframework.context.annotation.Bean;
+package com.alan.pojo;
 
 import java.util.List;
 

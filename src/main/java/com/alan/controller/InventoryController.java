@@ -1,24 +1,20 @@
-package com.el.controller;
+package com.alan.controller;
 
-import com.el.pojo.Adjustment;
-import com.el.pojo.OutPutMsg;
-import com.el.serivce.InventoryService;
+import com.alan.pojo.Adjustment;
+import com.alan.pojo.OutPutMsg;
+import com.alan.serivce.InventoryService;
 import com.jdedwards.system.connector.dynamic.ApplicationException;
 import com.jdedwards.system.connector.dynamic.Connector;
 import com.jdedwards.system.connector.dynamic.SystemException;
 import com.jdedwards.system.connector.dynamic.callmethod.BSFNExecutionWarning;
 import com.jdedwards.system.connector.dynamic.callmethod.ExecutableMethod;
-import com.jdedwards.system.connector.dynamic.spec.SpecFailureException;
 import com.jdedwards.system.connector.dynamic.spec.source.BSFNMethod;
 import com.jdedwards.system.connector.dynamic.spec.source.BSFNSpecSource;
 import com.jdedwards.system.connector.dynamic.spec.source.OneworldBSFNSpecSource;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * Created by Alan on 2020/9/22 9:27

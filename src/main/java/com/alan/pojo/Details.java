@@ -1,4 +1,4 @@
-package com.el.pojo;
+package com.alan.pojo;
 
 /**
  * Created by Alan on 2020/9/22 9:37

@@ -1,4 +1,4 @@
-package com.el.jiumaojiu;
+package com.alan.jdeconn;
 
 import com.jdedwards.system.connector.dynamic.ServerFailureException;
 import com.jdedwards.system.connector.dynamic.spec.SpecFailureException;
@@ -6,11 +6,9 @@ import com.jdedwards.system.connector.dynamic.spec.SpecFailureException;
 
 import com.jdedwards.system.connector.dynamic.ApplicationException;
 import com.jdedwards.system.connector.dynamic.Connector;
-import com.jdedwards.system.connector.dynamic.ServerFailureException;
 import com.jdedwards.system.connector.dynamic.SystemException;
 import com.jdedwards.system.connector.dynamic.callmethod.BSFNExecutionWarning;
 import com.jdedwards.system.connector.dynamic.callmethod.ExecutableMethod;
-import com.jdedwards.system.connector.dynamic.spec.SpecFailureException;
 import com.jdedwards.system.connector.dynamic.spec.source.BSFNMethod;
 import com.jdedwards.system.connector.dynamic.spec.source.BSFNSpecSource;
 import com.jdedwards.system.connector.dynamic.spec.source.OneworldBSFNSpecSource;

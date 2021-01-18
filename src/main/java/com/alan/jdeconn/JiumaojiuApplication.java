@@ -1,21 +1,15 @@
-package com.el.jiumaojiu;
+package com.alan.jdeconn;
 
-import com.jdedwards.system.lib.JdeException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.FilterType;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
 
 
-@ComponentScan("com.el")
+@ComponentScan("com.alan")
 @SpringBootApplication
 // com.jiaobuchong.business 和 com.jiaobuchong.user.servic 下的类都不会被扫描
-//@ComponentScan(basePackages = {"com.el"},
+//@ComponentScan(basePackages = {"com.alan"},
 //        excludeFilters = {@ComponentScan.Filter(type = FilterType.REGEX,
 //                pattern = "com.sun.enterprise\\..*"),
 //                @ComponentScan.Filter(type = FilterType.REGEX, pattern = "com.sun.corba\\..*"),
